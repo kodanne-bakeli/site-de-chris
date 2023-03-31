@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@800&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.6) 20%), url(images/5e3ecae126cd67af833195ba5953209a.jpg) no-repeat fixed;
+    background-size: cover;
+}
+/*----------header--------------*/
+header h1 {
+    font-size: 70px;
+}
+
+header nav {
+    background-color: rgb(77, 21, 21);
+}
+/*----------main--------------*/
+section .text-center,
+#about,
+#products-section div div:nth-child(1),
+#products-section div div:last-of-type p {
+    background-color: rgb(249, 221, 210);
+}
+
+#index-section2,
+#store-section1 {
+    background-color: rgba(111, 31, 31, 0.657);
+}
+/*----------indexl--------------*/
+#index-section1 a {
+    position: relative !important;
+    top: 70px !important;
+    background-color: rgba(111, 31, 31) !important;
+}
+/*----------about--------------*/
+#about {
+    position: relative;
+    bottom: 60px;
+    width: 70%;
+}
+/*----------products--------------*/
+#products-section div div:nth-child(1) {
+    top: 50px;
+}
+
+#products-section div div:last-of-type {
+    bottom: 40px;
+}
+/*----------store--------------*/
+#store-section1 .row .col {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+
+}
+
+#store-section1 .row,
+#address {
+    font-family: 'Castoro', serif;
+}
+
+#address .fw-bold {
+    font-family: 'Merienda', cursive;
+}
+
+.address {
+    font-size: 9px;
+}
+/*----------footer--------------*/
+footer {
+    background-color: rgb(66, 38, 38);
+}
+
+@media screen and (max-width:500px) {
+    #store-section1 .row .col {
+        border-bottom: 0 !important;
+        display: flex;
+
+    }
+
+    #store-section1 .row {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+
+    }
+}
+
+@media screen and (max-width:700px) {
+    #index-section1 .text-center {
+        position: inherit !important;
+        margin-bottom: 25px;
+    }
+
+    #about {
+        position: initial;
+        margin-top: 25px;
+    }
+
+    h1 {
+        font-size: 30px !important;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
