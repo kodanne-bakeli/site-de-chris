@@ -4,17 +4,18 @@
 
 body {
     font-family: 'Montserrat', sans-serif !important;
-    background: linear-gradient(rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.6) 20%), url(images/5e3ecae126cd67af833195ba5953209a.jpg) no-repeat fixed;
-    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5) 20%), url(images/5e3ecae126cd67af833195ba5953209a.jpg) no-repeat fixed center/cover;
 }
+
 /*----------header--------------*/
 header h1 {
     font-size: 70px;
 }
 
 header nav {
-    background-color: rgb(77, 21, 21);
+    background-color: rgb(67, 1, 1);
 }
+
 /*----------main--------------*/
 section .text-center,
 #about,
@@ -27,18 +28,21 @@ section .text-center,
 #store-section1 {
     background-color: rgba(111, 31, 31, 0.657);
 }
-/*----------indexl--------------*/
+
+/*----------index--------------*/
 #index-section1 a {
     position: relative !important;
     top: 70px !important;
     background-color: rgba(111, 31, 31) !important;
 }
+
 /*----------about--------------*/
 #about {
     position: relative;
     bottom: 60px;
     width: 70%;
 }
+
 /*----------products--------------*/
 #products-section div div:nth-child(1) {
     top: 50px;
@@ -47,6 +51,7 @@ section .text-center,
 #products-section div div:last-of-type {
     bottom: 40px;
 }
+
 /*----------store--------------*/
 #store-section1 .row .col {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
@@ -65,15 +70,16 @@ section .text-center,
 .address {
     font-size: 9px;
 }
+
 /*----------footer--------------*/
 footer {
     background-color: rgb(66, 38, 38);
 }
 
+/*--------------media--------*/
 @media screen and (max-width:500px) {
     #store-section1 .row .col {
         border-bottom: 0 !important;
-        display: flex;
 
     }
 
@@ -83,10 +89,12 @@ footer {
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
+
     #index-section1 .text-center {
         position: inherit !important;
         margin-bottom: 25px;
+        right: 0 !important;
     }
 
     #about {
