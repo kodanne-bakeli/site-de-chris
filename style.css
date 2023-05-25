@@ -87,6 +87,9 @@ footer {
         border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 
     }
+    #products-section div div:nth-child(1) {
+        top: 35px;
+    }
 }
 
 @media screen and (max-width:900px) {
